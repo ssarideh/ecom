@@ -1,0 +1,15 @@
+.recommended-container {
+    padding: 0 5rem 0 11rem;
+}
+
+.recommend-flex {
+    display: flex;
+    margin-left: 20rem;
+}
+
+.recommend-title {
+    margin-left: 20rem;
+    margin-bottom: 20rem;
+    margin-top: 20rem;
+    font-size: 20px;
+}
