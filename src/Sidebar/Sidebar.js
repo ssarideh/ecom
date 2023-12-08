@@ -1,6 +1,7 @@
 import Category from "./Category/Category";
 import Price from "./Price/Price";
 import Colors from "./Colors/Colors";
+import { FaCartShopping } from "react-icons/fa6";
 import "./Sidebar.css";
 
 const Sidebar = ({ handleChange }) => {
@@ -8,7 +9,7 @@ const Sidebar = ({ handleChange }) => {
     <>
       <section className="sidebar">
         <div className="logo-container">
-          <h1>🛒</h1>
+          <FaCartShopping className="logo" />
         </div>
 
         <Category handleChange={handleChange} />

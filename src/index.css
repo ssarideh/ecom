@@ -33,6 +33,7 @@ input:focus {
 .btns {
   padding: 10px 20px;
   margin-right: 6px;
+  margin-bottom: 6px;
   background: transparent;
   border: none;
   border: 0.6px solid #ccc;
@@ -43,4 +44,14 @@ input:focus {
 
 .btns:hover {
   background: #f0efef;
+}
+
+.container {
+  padding-left: 18%;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-left: 39%;
+  }
 }

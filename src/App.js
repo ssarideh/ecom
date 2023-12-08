@@ -73,8 +73,10 @@ function App() {
     <>
       <Sidebar handleChange={handleChange} />
       <Nav query={query} handleInputChange={handleInputChange} />
-      <Recommended handleClick={handleClick} />
-      <Products result={result} />
+      <div className="container">
+        <Recommended handleClick={handleClick} />
+        <Products result={result} />
+      </div>
     </>
   );
 }

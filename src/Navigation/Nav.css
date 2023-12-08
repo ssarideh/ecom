@@ -36,3 +36,24 @@ input:focus {
     width: 1.5rem;
     height: 1.5rem;
 }
+
+@media only screen and (max-width: 480px) {
+    nav {
+        margin-left: 8rem;
+        justify-content: flex-end
+    }
+
+    .profile-container {
+        gap: 0.5rem;
+    }
+
+    input {
+        width: 7rem;
+        padding: 10px;
+    }
+
+    .nav-icons {
+        width: 1rem;
+        height: 1rem;
+    }
+}

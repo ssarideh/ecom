@@ -17,7 +17,7 @@
 }
 
 .logo-container {
-    margin-bottom: 4rem;
+    margin: 1rem 0;
 }
 
 .logo-container h1 {
@@ -54,11 +54,11 @@
     border-radius: 50%;
 }
 
-.sidebar-label-container:hover input ~ .checkmark {
+.sidebar-label-container:hover input~.checkmark {
     background-color: #ccc;
 }
 
-.sidebar-label-container input:checked ~ .checkmark {
+.sidebar-label-container input:checked~.checkmark {
     background-color: #2196f3;
 }
 
@@ -68,7 +68,7 @@
     display: none;
 }
 
-.sidebar-label-container input:checked ~ .checkmark::after {
+.sidebar-label-container input:checked~.checkmark::after {
     display: block;
 }
 
@@ -84,4 +84,30 @@
 .line {
     margin-top: 3rem;
     border-color: #f7f7f7;
+}
+
+.logo {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .sidebar {
+        width: 33%;
+    }
+
+    .sidebar-title {
+        font-size: 18px;
+    }
+
+    .sidebar-label-container {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .logo-container {
+        margin: 1.5rem 0;
+    }
 }
